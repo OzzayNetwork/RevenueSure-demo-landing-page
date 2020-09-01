@@ -3,12 +3,27 @@
 
 main {
     background-image: linear-gradient(to top, white 0%, #f6f9fa 100%);
-    background-image: url("../assets/img/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background: url("../assets/img/nairobibg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
 }
 
+main::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+   
+    background:linear-gradient(to top,  #ea5a14c9, #fd732c59);
+   
+
+}
 .main-container {
     width: 100%;
     display: flex;
@@ -187,6 +202,8 @@ main {
     letter-spacing: 11px;
     margin-bottom: 2rem;
     font-family: 'Orbitron', sans-serif;
+    color: white;
+    z-index: 100;
 	
 }
 
