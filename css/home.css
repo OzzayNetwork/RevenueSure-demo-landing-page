@@ -41,7 +41,9 @@ main {
 }
 
 .main-container img {
-    height: 180px;
+    height: 124px;
+    margin: 2rem;
+    margin-bottom: 1rem;
 }
 
 .revenue-container {
@@ -176,12 +178,15 @@ main {
 .main-container h2 {
 	margin-top: 10px;
     text-align: center;
-    color: black;
-    font-size: 28px;
+    color: #514f5d;
+    font-size: 32px;
     font-weight: 400;
     font-weight: 600;
-	text-transform: uppercase;
+    text-transform: uppercase;
     font-weight: 700;
+    letter-spacing: 11px;
+    margin-bottom: 2rem;
+    font-family: 'Orbitron', sans-serif;
 	
 }
 
@@ -295,6 +300,7 @@ main {
     justify-content: center;
     align-content: center;
     align-items: center;
+    background:#f9fbfd;
 }
 
 .fooooter p {
@@ -316,7 +322,7 @@ main {
 	align-items: center;
 }
 .stake-container img{
-	width: 124px;
+	width: 240px;
 }
 .sketch-container{
 	display: flex;
@@ -326,6 +332,9 @@ main {
 }
 
 .sketch-container img{
-	height: 159px;
+	height: 200px;
     margin-top: 2rem;
+}
+.copyright a{
+    color:#ed5d19;
 }
