@@ -6,8 +6,8 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background: url("../assets/img/nairobibg.jpg");
-    background-position: center;
+    background: url("../img/bridge.jpg");
+    background-position:bottom;
     background-attachment: fixed;
     position: relative;
 }
